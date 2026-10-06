@@ -1,3 +1,6 @@
 .env
 __pycache__/
 *.pyc
+geojson_results/
+*.txt
+*.geojson
