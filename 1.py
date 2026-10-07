@@ -1238,8 +1238,8 @@ def main() -> None:
 
     parser = argparse.ArgumentParser(description="Сканер кадастровых номеров")
     parser.add_argument(
-        "--quarter", default="14:35:107",
-        help="Кадастровый квартал (например: 14:35:107)"
+        "--quarter", default="77:01:000",
+        help="Кадастровый квартал (например: 77:01:000)"
     )
     parser.add_argument(
         "--default-max-end", type=int, default=5000,
